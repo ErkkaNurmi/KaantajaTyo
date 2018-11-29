@@ -12,7 +12,7 @@ PROGRAM basicRequirementsSample(input1, input2){ //Avainsanat ISOLLA? Kommentit 
 		RETURN 0;
 	}
 	ret := ret + input2;
-	RETURN ret; //Pitäisi kai palauttaa (input1 + input 2 - 3), kun input1 > 3. Muuten palauttaa 0// 
+	RETURN (ret); //Pitäisi kai palauttaa (input1 + input 2 - 3), kun input1 > 3. Muuten palauttaa 0// 
 }
 
 //Kommenttitesti//
@@ -30,7 +30,7 @@ PROGRAM arithmeticsTest(){
 	x := a + d / b * c - a; // 1 + 4 / 2 * 3 - 1 = 6 //
 	y := x / (a + b) // 6 / (1 + 2) = 2 //
 	z := c * x / y; // 3 * 6 / 2 = 9; 
-	RETURN z; //Palauttaa 9 //
+	RETURN (z); //Palauttaa 9 //
 }
 //Ehtolausetesti//
 PROGRAM conditionTest(input){
@@ -39,7 +39,7 @@ PROGRAM conditionTest(input){
 	} ELSE {
 		RETURN 0;
 	}
-	RETURN 2; // Palauttaa 1, jos syöte = 0, muuten palauttaa 0//
+	RETURN (2); // Palauttaa 1, jos syöte = 0, muuten palauttaa 0//
 }
 
 //Silmukkatesti//
@@ -48,7 +48,7 @@ PROGRAM loopTest(input1, input2){
 	FOR(input1){
 		ret := ret + input2;
 	}
-	RETURN ret; //Palauttaa input1 * input2//
+	RETURN (ret); //Palauttaa input1 * input2//
 }
 
 //MuuttujaTesti//
@@ -65,11 +65,11 @@ PROGRAM inputOutputTest1(input){
 
 //Syöte- ja tulostetesti 2//
 PROGRAM inputOutputTest2(input){
-	RETURN input; //Palauttaa syötteen//
+	RETURN (input); //Palauttaa syötteen//
 }
 
 //Syöte- ja tulostetesti 3//
 PROGRAM inputOutputTest3(input){
 	a := input;
-	RETURN 0; //Palauttaa 0//
+	RETURN (0); //Palauttaa 0//
 }
