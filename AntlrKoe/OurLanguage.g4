@@ -16,8 +16,10 @@ condition: value '=' value
 		| value '>' value
 		;
 		
-value: ; //TODO
+value: INT | DOUBLE; //TODO
 
+INT : [-]?([0-9] | [1-9][0-9]*);
+DOUBLE : [-]?([0-9] | [1-9][0-9]*)'.'[0-9]+;
 ID : [a-z]+ ; 
 
 WS : [ \t\r\n]+ -> skip ; 
