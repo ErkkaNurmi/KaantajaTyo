@@ -1,0 +1,5 @@
+PROGRAM variableTest(){
+	a := 1;
+	aamu := 2;
+	RETURN (a + aamu); //Palauttaa 3//
+}

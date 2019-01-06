@@ -1,0 +1,3 @@
+PROGRAM inputOutputTest1(input){
+	RETURN (input + input); //Palauttaa syötteen kerrottuna kahdella//
+}

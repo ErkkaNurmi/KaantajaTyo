@@ -1,0 +1,4 @@
+PROGRAM inputOutputTest3(input){
+	a := input;
+	RETURN (0); //Palauttaa 0//
+}

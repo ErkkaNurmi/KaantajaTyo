@@ -1,0 +1,3 @@
+PROGRAM inputOutputTest2(input){
+	RETURN (input); //Palauttaa syötteen//
+}

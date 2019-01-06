@@ -48,6 +48,16 @@ public interface OurLanguageListener extends ParseTreeListener {
 	 */
 	void exitStatement(@NotNull OurLanguageParser.StatementContext ctx);
 	/**
+	 * Enter a parse tree produced by {@link OurLanguageParser#simpleValue}.
+	 * @param ctx the parse tree
+	 */
+	void enterSimpleValue(@NotNull OurLanguageParser.SimpleValueContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link OurLanguageParser#simpleValue}.
+	 * @param ctx the parse tree
+	 */
+	void exitSimpleValue(@NotNull OurLanguageParser.SimpleValueContext ctx);
+	/**
 	 * Enter a parse tree produced by {@link OurLanguageParser#program}.
 	 * @param ctx the parse tree
 	 */

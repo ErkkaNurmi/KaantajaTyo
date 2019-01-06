@@ -1,7 +1,6 @@
-// Generated from OurLanguage.g4 by ANTLR 4.4
+// Generated from .\OurLanguage.g4 by ANTLR 4.7.1
 
 import org.antlr.v4.runtime.ParserRuleContext;
-import org.antlr.v4.runtime.misc.NotNull;
 import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
@@ -16,108 +15,108 @@ public class OurLanguageBaseListener implements OurLanguageListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterCondition(@NotNull OurLanguageParser.ConditionContext ctx) { }
+	@Override public void enterProgram(OurLanguageParser.ProgramContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitCondition(@NotNull OurLanguageParser.ConditionContext ctx) { }
+	@Override public void exitProgram(OurLanguageParser.ProgramContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterCode(@NotNull OurLanguageParser.CodeContext ctx) { }
+	@Override public void enterParamList(OurLanguageParser.ParamListContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitCode(@NotNull OurLanguageParser.CodeContext ctx) { }
+	@Override public void exitParamList(OurLanguageParser.ParamListContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterParamList(@NotNull OurLanguageParser.ParamListContext ctx) { }
+	@Override public void enterCode(OurLanguageParser.CodeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitParamList(@NotNull OurLanguageParser.ParamListContext ctx) { }
+	@Override public void exitCode(OurLanguageParser.CodeContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterStatement(@NotNull OurLanguageParser.StatementContext ctx) { }
+	@Override public void enterStatement(OurLanguageParser.StatementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitStatement(@NotNull OurLanguageParser.StatementContext ctx) { }
+	@Override public void exitStatement(OurLanguageParser.StatementContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterSimpleValue(@NotNull OurLanguageParser.SimpleValueContext ctx) { }
+	@Override public void enterCondition(OurLanguageParser.ConditionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitSimpleValue(@NotNull OurLanguageParser.SimpleValueContext ctx) { }
+	@Override public void exitCondition(OurLanguageParser.ConditionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterProgram(@NotNull OurLanguageParser.ProgramContext ctx) { }
+	@Override public void enterValue(OurLanguageParser.ValueContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitProgram(@NotNull OurLanguageParser.ProgramContext ctx) { }
+	@Override public void exitValue(OurLanguageParser.ValueContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterValue(@NotNull OurLanguageParser.ValueContext ctx) { }
+	@Override public void enterSimpleValue(OurLanguageParser.SimpleValueContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitValue(@NotNull OurLanguageParser.ValueContext ctx) { }
+	@Override public void exitSimpleValue(OurLanguageParser.SimpleValueContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterEveryRule(@NotNull ParserRuleContext ctx) { }
+	@Override public void enterEveryRule(ParserRuleContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitEveryRule(@NotNull ParserRuleContext ctx) { }
+	@Override public void exitEveryRule(ParserRuleContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void visitTerminal(@NotNull TerminalNode node) { }
+	@Override public void visitTerminal(TerminalNode node) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void visitErrorNode(@NotNull ErrorNode node) { }
+	@Override public void visitErrorNode(ErrorNode node) { }
 }
