@@ -1,4 +1,4 @@
 PROGRAM commentTest(){
-	//T‰‰ ei tee mit‰‰n//
-	RETURN;
+	//T‰‰ ei tee mit‰‰n
+	RETURN();
 }

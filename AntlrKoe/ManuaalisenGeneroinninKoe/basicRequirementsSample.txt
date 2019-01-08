@@ -9,7 +9,7 @@ PROGRAM basicRequirementsSample(input1, input2){ //Avainsanat ISOLLA? Kommentit 
 			ret := ret + 1;
 		}
 	} ELSE {
-		RETURN 0;
+		RETURN (0);
 	}
 	ret := ret + input2;
 	RETURN (ret); //Pitäisi kai palauttaa (input1 + input 2 - 3), kun input1 > 3. Muuten palauttaa 0// 
