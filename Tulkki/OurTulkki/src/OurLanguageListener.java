@@ -1,4 +1,4 @@
-// Generated from .\OurLanguage.g4 by ANTLR 4.7.2
+// Generated from .\OurLanguage.g4 by ANTLR 4.7.1
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**
@@ -66,14 +66,4 @@ public interface OurLanguageListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitValue(OurLanguageParser.ValueContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link OurLanguageParser#simpleValue}.
-	 * @param ctx the parse tree
-	 */
-	void enterSimpleValue(OurLanguageParser.SimpleValueContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link OurLanguageParser#simpleValue}.
-	 * @param ctx the parse tree
-	 */
-	void exitSimpleValue(OurLanguageParser.SimpleValueContext ctx);
 }
