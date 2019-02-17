@@ -1,4 +1,4 @@
-package OurLanguage;
+// Generated from .\OurLanguage.g4 by ANTLR 4.7.1
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
 /**
@@ -9,7 +9,6 @@ import org.antlr.v4.runtime.tree.ParseTreeVisitor;
  * operations with no return type.
  */
 public interface OurLanguageVisitor<T> extends ParseTreeVisitor<T> {
-	
 	/**
 	 * Visit a parse tree produced by {@link OurLanguageParser#program}.
 	 * @param ctx the parse tree
@@ -52,4 +51,10 @@ public interface OurLanguageVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitSimpleValue(OurLanguageParser.SimpleValueContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link OurLanguageParser#simplestValue}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitSimplestValue(OurLanguageParser.SimplestValueContext ctx);
 }

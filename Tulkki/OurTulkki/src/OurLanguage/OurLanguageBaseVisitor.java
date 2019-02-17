@@ -1,5 +1,4 @@
-package OurLanguage;
-
+// Generated from .\OurLanguage.g4 by ANTLR 4.7.1
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
 
 /**
@@ -7,7 +6,7 @@ import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
  * which can be extended to create a visitor which only needs to handle a subset
  * of the available methods.
  *
- * @param <Object> The return type of the visit operation. Use {@link Void} for
+ * @param <T> The return type of the visit operation. Use {@link Void} for
  * operations with no return type.
  */
 public class OurLanguageBaseVisitor<T> extends AbstractParseTreeVisitor<T> implements OurLanguageVisitor<T> {
@@ -60,4 +59,11 @@ public class OurLanguageBaseVisitor<T> extends AbstractParseTreeVisitor<T> imple
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
 	@Override public T visitSimpleValue(OurLanguageParser.SimpleValueContext ctx) { return visitChildren(ctx); }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation returns the result of calling
+	 * {@link #visitChildren} on {@code ctx}.</p>
+	 */
+	@Override public T visitSimplestValue(OurLanguageParser.SimplestValueContext ctx) { return visitChildren(ctx); }
 }

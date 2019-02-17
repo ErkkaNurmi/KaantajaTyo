@@ -1,4 +1,4 @@
-package OurLanguage;
+// Generated from .\OurLanguage.g4 by ANTLR 4.7.1
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**
@@ -76,4 +76,14 @@ public interface OurLanguageListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitSimpleValue(OurLanguageParser.SimpleValueContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link OurLanguageParser#simplestValue}.
+	 * @param ctx the parse tree
+	 */
+	void enterSimplestValue(OurLanguageParser.SimplestValueContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link OurLanguageParser#simplestValue}.
+	 * @param ctx the parse tree
+	 */
+	void exitSimplestValue(OurLanguageParser.SimplestValueContext ctx);
 }
