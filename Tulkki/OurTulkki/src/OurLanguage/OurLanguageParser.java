@@ -1,4 +1,4 @@
-// Generated from .\OurLanguage.g4 by ANTLR 4.7.1
+package OurLanguage;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;

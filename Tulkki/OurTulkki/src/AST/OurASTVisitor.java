@@ -21,7 +21,7 @@ public class OurASTVisitor extends OurLanguageBaseVisitor
 			
 		}
 		
-		return new Program(ctx.ID().getText(), null, null, null);
+		return new Program(ctx.ID().getText(), null, null);
 	}
 	
 	/*

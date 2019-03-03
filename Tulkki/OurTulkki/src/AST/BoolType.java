@@ -1,6 +1,6 @@
 package AST;
 
-public class BoolType extends Type
+public class BoolType extends SimplestValue
 {
 	@Override
 	public boolean isBool()
