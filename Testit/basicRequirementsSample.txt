@@ -12,5 +12,5 @@ PROGRAM basicRequirementsSample(inputA, inputB){ //Avainsanat ISOLLA? Kommentit 
 		RETURN (0);
 	}
 	ret := ret + inputB;
-	RETURN (ret); //Pitäisi kai palauttaa (inputA + input 2 - 3), kun inputA > 3. Muuten palauttaa 0// 
+	RETURN (ret);
 }
