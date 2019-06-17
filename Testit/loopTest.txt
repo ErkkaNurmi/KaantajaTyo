@@ -3,5 +3,5 @@ PROGRAM loopTest(inputA, inputB){
 	FOR(inputA){
 		ret := ret + inputB + 1;
 	}
-	RETURN (ret); //Palauttaa inputA * inputB + inputA//
+	RETURN (ret);
 }
