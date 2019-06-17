@@ -1,0 +1,11 @@
+PROGRAM minimum(x, y){
+	output := 0;
+	FOR(x){
+		IF(output = y){
+			RETURN (output);
+		} ELSE {
+			output := output + 1;
+		}
+	}
+	RETURN (output);
+}

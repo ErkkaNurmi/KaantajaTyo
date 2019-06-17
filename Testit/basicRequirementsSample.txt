@@ -1,0 +1,16 @@
+PROGRAM basicRequirementsSample(inputA, inputB){ //Avainsanat ISOLLA? Kommentit kahden kauttaviivaparin v‰liin?//
+	a := 1; //Sijoitus :=. Rivi p‰‰ttyy ";"-merkkiin //
+	b := 2; //Halutaanko mahdollistaa sijoitus molempiin suuntiin?//
+	c := a + b;
+	ret := 0;
+	IF(c < inputA){
+		FOR(inputA - c){ // FOR:iin "parametri"-sulkujen sis‰‰n suoraan suorituskertojen m‰‰r‰? T‰m‰ tapahtuisi siis (inputA - c) kertaa//
+			c := c + 1;
+			ret := ret + 1;
+		}
+	} ELSE {
+		RETURN (0);
+	}
+	ret := ret + inputB;
+	RETURN (ret); //Pit‰isi kai palauttaa (inputA + input 2 - 3), kun inputA > 3. Muuten palauttaa 0// 
+}

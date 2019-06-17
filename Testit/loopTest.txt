@@ -1,0 +1,7 @@
+PROGRAM loopTest(inputA, inputB){
+	ret := 0;
+	FOR(inputA){
+		ret := ret + inputB + 1;
+	}
+	RETURN (ret); //Palauttaa inputA * inputB + inputA//
+}
